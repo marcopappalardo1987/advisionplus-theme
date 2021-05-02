@@ -1,0 +1,38 @@
+.redux-notice-field {
+    background-color: #2171b1;
+    border-left: 0px;
+}
+.redux-notice-field .redux-info-desc {
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.redux-container .ui-button, .control-section-redux .ui-button, .control-panel-redux .ui-button, .redux-metabox .ui-button {
+    background-image: none;
+    border: 1px solid #c3c3c3;
+    background-color: #f3f3f3;
+}
+.buttonset .ui-button .ui-icon {
+    display: none;
+}
+.col-1of2{
+    width: 50%;
+    display: table-cell;
+}
+
+/* Small Screen*/
+@media screen and (max-width: 768px){
+    
+}
+/* Medium Screen*/
+@media screen and (max-width: 992px){
+    .col-1of2{
+        width: 100%;
+        display: table-row;
+    }
+}
+/* Large Screen*/
+@media screen and (max-width: 1200px){
+    
+}

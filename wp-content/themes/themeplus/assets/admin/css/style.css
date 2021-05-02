@@ -1,0 +1,7 @@
+#adminmenu #toplevel_page__options img {
+    width: 18px;
+    opacity: 1;
+}
+#adminmenu #toplevel_page__options.wp-menu-open img{
+    filter: brightness(0) invert(1);
+}
